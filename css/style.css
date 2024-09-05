@@ -247,7 +247,7 @@ header::after {
   mask-image: url("../../assets/elemento-curvo.svg");
   mask-repeat: no-repeat;
   background-size: contain;
-  background-image: url(../../assets/elemento-curvo.svg);
+  background-image: url(./assets/elemento-curvo.svg);
 }
 header::after .font-logo {
   font-family: "Lobster Two", cursive;
