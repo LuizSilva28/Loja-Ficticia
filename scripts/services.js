@@ -18,7 +18,7 @@ icon_close.onclick = (e) => {
 };
 
 // || ALERT DO BOTÃO ENVIAR DA AVALIAÇÕES
-/*
+
 const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
 const appendAlert = (message, type) => {
   const wrapper = document.createElement('div')
@@ -37,7 +37,7 @@ if (alertTrigger) {
   alertTrigger.addEventListener('click', () => {
     appendAlert('avaliação enviada!!', 'success')
   })
-}*/
+}
 
 // || AVALIAÇÃO POR ESTRELAS || AVALIAÇÃO POR ESTRELAS || AVALIAÇÃO POR ESTRELAS
 
