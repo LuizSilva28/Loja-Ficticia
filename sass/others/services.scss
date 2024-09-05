@@ -15,7 +15,10 @@ header::after {
   background: $color-Home3;
   top: 4rem;
   -webkit-mask-image: url("../../assets/elemento-curvo.svg");
-
+    -webkit-mask-repeat: no-repeat;
+    mask-image: url("../../assets/elemento-curvo.svg"); 
+    mask-repeat: no-repeat;
+  
   .font-logo {
     font-family: 'Lobster Two', cursive;
   }
@@ -89,8 +92,8 @@ header::after {
       width: 3em;
       height: 3em;
       background-repeat: no-repeat;
-      background-size: contain;
       -webkit-background-size: contain;
+      background-size: contain;
 
 
 
@@ -136,8 +139,8 @@ header::after {
       width: 3em;
       height: 3em;
       background-repeat: no-repeat;
-      background-size: contain;
       -webkit-background-size: contain;
+      background-size: contain;
 
 
 
@@ -176,7 +179,7 @@ header::after {
       background-position: 0% 50%;
 
 
-      .text-Produto2 {}
+      
     }
 
 
@@ -263,8 +266,8 @@ header::after {
             width: 3em;
             height: 3em;
             background-repeat: no-repeat;
-            background-size: contain;
             -webkit-background-size: contain;
+            background-size: contain;
 
 
 

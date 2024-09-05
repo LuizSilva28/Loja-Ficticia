@@ -206,7 +206,7 @@ body {
   background-position: center center;
 }
 .home-aling .myContainer1 .Meu-Carrossel .myImg-2 {
-  background-image: url(https://raw.githubusercontent.com/LuizSilva28/Loja-Ficticia/main/img/look-home-4.webp);
+  background-image: url(../../img/look-home-4.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -483,6 +483,9 @@ header::after {
   background: #5e2121;
   top: 4rem;
   -webkit-mask-image: url("../../assets/elemento-curvo.svg");
+  -webkit-mask-repeat: no-repeat;
+  mask-image: url("../../assets/elemento-curvo.svg");
+  mask-repeat: no-repeat;
 }
 header::after .font-logo {
   font-family: "Lobster Two", cursive;
@@ -535,8 +538,8 @@ header::after .font-logo {
   width: 3em;
   height: 3em;
   background-repeat: no-repeat;
-  background-size: contain;
   -webkit-background-size: contain;
+  background-size: contain;
 }
 .section-Pacotes .pacote-Premium {
   display: flex;
@@ -570,8 +573,8 @@ header::after .font-logo {
   width: 3em;
   height: 3em;
   background-repeat: no-repeat;
-  background-size: contain;
   -webkit-background-size: contain;
+  background-size: contain;
 }
 
 .area-Produtos {
@@ -597,6 +600,7 @@ header::after .font-logo {
 .area-Produtos .ProdutosPrincipais .produto-Principal-2 {
   background-position: 0% 50%;
 }
+
 .section-avaliacoes {
   position: relative;
   background-image: linear-gradient(to bottom, rgb(254, 213, 220), #ff6666);
@@ -650,8 +654,8 @@ header::after .font-logo {
   width: 3em;
   height: 3em;
   background-repeat: no-repeat;
-  background-size: contain;
   -webkit-background-size: contain;
+  background-size: contain;
 }
 .section-avaliacoes .container-Avaliacoes .avaliacoes .container-Notas .container-Ratingfloot .icon-CloseAvaliable {
   display: flex;
