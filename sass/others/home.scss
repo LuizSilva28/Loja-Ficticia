@@ -28,12 +28,12 @@ header::after {
   height: 4rem;
   background: $color-Home3;
   top: 4rem;
-  -webkit-mask-image: url("assets/elemento-curvo.svg");
+  -webkit-mask-image: url("./assets/elemento-curvo.svg");
     -webkit-mask-repeat: no-repeat;
-    mask-image: url("assets/elemento-curvo.svg"); 
+    mask-image: url("./assets/elemento-curvo.svg"); 
     mask-repeat: no-repeat;
     background-size: contain;
-    background-image: url(assets/elemento-curvo.svg);
+    
   
   .font-logo {
     font-family: 'Lobster Two', cursive;
