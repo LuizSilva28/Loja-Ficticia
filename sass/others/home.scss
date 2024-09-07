@@ -21,23 +21,21 @@ body {
 	}
 }
 header::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 4rem;
+	background: $color-Home3;
+	top: 4rem;
+	-webkit-mask-image: url(../../assets/elemento-curvo.svg);
+	-webkit-mask-repeat: no-repeat;
+	mask-image: url(../../assets/elemento-curvo.svg);
+	mask-repeat: no-repeat;
+	background-size: contain;
 
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 4rem;
-  background: $color-Home3;
-  top: 4rem;
-  -webkit-mask-image: url("https://github.com/LuizSilva28/Loja-Ficticia/blob/9f075e69650b6e33ca5598cdf221a1999304a8f7/assets/elemento-curvo.svg");
-    -webkit-mask-repeat: no-repeat;
-    mask-image: url("https://github.com/LuizSilva28/Loja-Ficticia/blob/9f075e69650b6e33ca5598cdf221a1999304a8f7/assets/elemento-curvo.svg"); 
-    mask-repeat: no-repeat;
-    background-size: contain;
-    
-  
-  .font-logo {
-    font-family: 'Lobster Two', cursive;
-  }
+	.font-logo {
+		font-family: "Lobster Two", cursive;
+	}
 }
 .home-aling {
 	display: flex;
@@ -119,13 +117,7 @@ header::after {
 		padding: 3rem;
 		background-color: $color-Home1;
 
-		.titulo-cards {
-			// background-image: (url(../../img/Esboço\ de\ sacos\ elegantes\ de\ mulher\ sem\ costura\ _\ Vetor\ Grátis\ \(1\).jpg));
-		}
-
 		.titulo-BgOpacity {
-			//background-color: $color-shadowIcon;
-
 			.titulo-cardsText {
 				color: $bg-section1;
 				font-weight: 400;
@@ -196,7 +188,7 @@ header::after {
 			height: 20em;
 
 			.myImg-1 {
-				background-image: url(../../img/look-home-3.webp);
+				background-image: url(../../img/look-home-4.webp);
 				background-repeat: no-repeat;
 				background-size: contain;
 				background-position: center center;

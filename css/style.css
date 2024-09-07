@@ -73,9 +73,9 @@ header::after {
   height: 4rem;
   background: #5e2121;
   top: 4rem;
-  -webkit-mask-image: url("https://github.com/LuizSilva28/Loja-Ficticia/blob/9f075e69650b6e33ca5598cdf221a1999304a8f7/assets/elemento-curvo.svg");
+  -webkit-mask-image: url(../../assets/elemento-curvo.svg);
   -webkit-mask-repeat: no-repeat;
-  mask-image: url("https://github.com/LuizSilva28/Loja-Ficticia/blob/9f075e69650b6e33ca5598cdf221a1999304a8f7/assets/elemento-curvo.svg");
+  mask-image: url(../../assets/elemento-curvo.svg);
   mask-repeat: no-repeat;
 }
 header::after .font-logo {
