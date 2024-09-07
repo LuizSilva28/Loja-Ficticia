@@ -27,9 +27,9 @@ header::after {
 	height: 4rem;
 	background: $color-Home3;
 	top: 4rem;
-	-webkit-mask-image: url(../../assets/elemento-curvo.svg);
+	-webkit-mask-image: url(../assets/elemento-curvo.svg);
 	-webkit-mask-repeat: no-repeat;
-	mask-image: url(../../assets/elemento-curvo.svg);
+	mask-image: url(../assets/elemento-curvo.svg);
 	mask-repeat: no-repeat;
 	background-size: contain;
 
@@ -188,7 +188,7 @@ header::after {
 			height: 20em;
 
 			.myImg-1 {
-				background-image: url(../../img/look-home-4.webp);
+				background-image: url(../../img/look-home-3.webp);
 				background-repeat: no-repeat;
 				background-size: contain;
 				background-position: center center;

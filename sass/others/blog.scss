@@ -1,35 +1,30 @@
 html,
 body {
-
-  box-sizing: border-box;
-  font-family: 'Philosopher';
-
+	box-sizing: border-box;
+	font-family: "Philosopher";
 }
 
 header::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 4rem;
+	background: $color-Home3;
+	top: 4rem;
+	-webkit-mask-image: url(../assets/elemento-curvo.svg);
+	-webkit-mask-repeat: no-repeat;
+	mask-image: url(../assets/elemento-curvo.svg);
+	mask-repeat: no-repeat;
 
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 4rem;
-  background: $color-Home3;
-  top: 4rem;
-  -webkit-mask-image: url("https://github.com/LuizSilva28/Loja-Ficticia/blob/9f075e69650b6e33ca5598cdf221a1999304a8f7/assets/elemento-curvo.svg");
-    -webkit-mask-repeat: no-repeat;
-    mask-image: url("https://github.com/LuizSilva28/Loja-Ficticia/blob/9f075e69650b6e33ca5598cdf221a1999304a8f7/assets/elemento-curvo.svg"); 
-    mask-repeat: no-repeat;
-  
-  .font-logo {
-    font-family: 'Lobster Two', cursive;
-  }
+	.font-logo {
+		font-family: "Lobster Two", cursive;
+	}
 }
 
-
 .div-PaideTodos {
-  background-image: linear-gradient(0deg, $color-Home1, $bg-section1);
+	background-image: linear-gradient(0deg, $color-Home1, $bg-section1);
 
-
-  /* .elemento1 {
+	/* .elemento1 {
     z-index: 1;
     position: relative;
 
@@ -77,149 +72,123 @@ header::after {
 
   }*/
 
+	.blogCards-center {
+		gap: 1rem;
+		padding: 3rem;
+		background-color: transparent;
 
+		.titulo-BgOpacity {
+			.titulo-cardsText {
+				z-index: 1;
+				margin-top: 5%;
+				font-weight: 400;
+				text-transform: uppercase;
+				text-shadow: 1px 1px 4px $color-Home3;
+				color: $white-color;
+				position: relative;
+			}
+		}
 
+		#cardBlog:hover {
+			box-shadow: 2px 2px 10px $color-Home3;
+			transition: 0.3s;
+			border: none;
+		}
 
-  .blogCards-center {
+		.card-Pai {
+			width: 18rem;
+			background-color: $color-Home2;
+			color: $white-color;
+			border-radius: 1rem;
 
+			.title-myCard {
+				text-align: center;
+			}
+		}
+	}
 
-    gap: 1rem;
-    padding: 3rem;
-    background-color: transparent;
+	.aba-Curiosidades {
+		height: auto;
+		background-color: $color-Home1;
 
+		.text-AbaCuriosidades {
+			z-index: 1;
+			margin-top: 5%;
+			font-weight: 400;
+			text-transform: uppercase;
+			text-shadow: 1px 1px 4px $color-shadowIcon;
+			color: $white-color;
+			position: relative;
+		}
 
+		.card-Pai {
+			width: 25rem;
 
-
-
-    .titulo-BgOpacity {
-
-
-      .titulo-cardsText {
-        z-index: 1;
-        margin-top: 5%;
-        font-weight: 400;
-        text-transform: uppercase;
-        text-shadow: 1px 1px 4px $color-Home3;
-        color: $white-color;
-        position: relative;
-      }
-
-
-
-    }
-
-
-
-
-
-
-    #cardBlog:hover {
-      box-shadow: 2px 2px 10px $color-Home3;
-      transition: .3s;
-      border: none;
-    }
-
-    .card-Pai {
-
-      width: 18rem;
-      background-color: $color-Home2;
-      color: $white-color;
-      border-radius: 1rem;
-
-      .title-myCard {
-        text-align: center;
-      }
-
-
-    }
-
-
-  }
-
-
-
-
-  .aba-Curiosidades {
-
-    height: auto;
-    background-color: $color-Home1;
-
-    .text-AbaCuriosidades {
-      z-index: 1;
-      margin-top: 5%;
-      font-weight: 400;
-      text-transform: uppercase;
-      text-shadow: 1px 1px 4px $color-shadowIcon;
-      color: $white-color;
-      position: relative;
-    }
-
-    .card-Pai {
-
-      width: 25rem;
-
-      .cardCuriosidadeBlog-img1 {
-        border-radius: 1rem;
-      }
-
-    }
-  }
+			.cardCuriosidadeBlog-img1 {
+				border-radius: 1rem;
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 575px) {
+	header {
+		.myNavbar {
+			.mine_menu3 {
+				margin-top: 1rem;
+				background-image: linear-gradient(
+					45deg,
+					$color-Home3,
+					$color-shadowIcon
+				);
+				border-radius: 1rem;
 
-  header {
-    .myNavbar {
-      .mine_menu3 {
-        margin-top: 1rem;
-        background-image: linear-gradient(45deg, $color-Home3, $color-shadowIcon);
-        border-radius: 1rem;
+				.alinhando_FaqMineMenu3 {
+					margin: 2rem 0 0 auto !important;
+				}
 
-        .alinhando_FaqMineMenu3 {
+				ul {
+					width: auto !important;
+					padding-left: 2rem !important;
 
-          margin: 2rem 0 0 auto !important;
-        }
+					li {
+						width: auto !important;
+						padding: 0 !important;
 
-        ul {
-          width: auto !important;
-          padding-left: 2rem !important;
+						a {
+							width: auto !important;
+							margin: 0rem 1rem 0rem auto !important;
+						}
+					}
+				}
+			}
+		}
+	}
 
-          li {
-            width: auto !important;
-            padding: 0 !important;
+	.blogCards-center {
+		.titulo-BgOpacity {
+			padding-bottom: 0 !important;
 
-            a {
-              width: auto !important;
-              margin: 0rem 1rem 0rem auto !important;
-            }
-          }
-        }
-      }
-    }
-  }
+			.titulo-cardsText {
+				padding-bottom: 0 !important;
+			}
+		}
 
-  .blogCards-center {
-    .titulo-BgOpacity {
-      padding-bottom: 0 !important;
+		.mineContainerCard {
+			//margin: 0 !important;
+			width: 95% !important;
 
-      .titulo-cardsText {
-        padding-bottom: 0 !important;
-      }
-    }
+			.mineSectionCard {
+			}
+		}
 
-    .mineContainerCard {
-      //margin: 0 !important;
-      width: 95% !important;
+		.aba-Curiosidades {
+			.card-Pai {
+				max-width: 95% !important;
 
-      .mineSectionCard {}
-    }
-
-    .aba-Curiosidades {
-      .card-Pai {
-        max-width: 95% !important;
-
-        .cardCuriosidadeBlog-img1 {}
-      }
-    }
-  }
+				.cardCuriosidadeBlog-img1 {
+				}
+			}
+		}
+	}
 }

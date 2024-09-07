@@ -73,9 +73,9 @@ header::after {
   height: 4rem;
   background: #5e2121;
   top: 4rem;
-  -webkit-mask-image: url(../../assets/elemento-curvo.svg);
+  -webkit-mask-image: url(../assets/elemento-curvo.svg);
   -webkit-mask-repeat: no-repeat;
-  mask-image: url(../../assets/elemento-curvo.svg);
+  mask-image: url(../assets/elemento-curvo.svg);
   mask-repeat: no-repeat;
 }
 header::after .font-logo {
@@ -85,52 +85,52 @@ header::after .font-logo {
 .div-PaideTodos {
   background-image: linear-gradient(0deg, #ff6666, rgb(254, 213, 220));
   /* .elemento1 {
-    z-index: 1;
-    position: relative;
+     z-index: 1;
+     position: relative;
 
-  }
+   }
 
 
 
-  /*  .elemento1::after {
-    content: '';
-    width: 100%;
-    height: 4rem;
-    background-color: $color-Home3;
-    top: 4rem;
-    left: 0;
-    position: absolute;
-    z-index: 0;
-    display: block;
-  }
+   /*  .elemento1::after {
+     content: '';
+     width: 100%;
+     height: 4rem;
+     background-color: $color-Home3;
+     top: 4rem;
+     left: 0;
+     position: absolute;
+     z-index: 0;
+     display: block;
+   }
 
-  .elemento2::before {
-    content: '';
-    width: 80%;
-    height: 80%;
-    background-color: red;
-    top: 3.7rem;
-    left: 0;
-    position: absolute;
-    z-index: 1;
-    display: block;
-    clip-path: ellipse(50% 9% at 23.8% 9%);
+   .elemento2::before {
+     content: '';
+     width: 80%;
+     height: 80%;
+     background-color: red;
+     top: 3.7rem;
+     left: 0;
+     position: absolute;
+     z-index: 1;
+     display: block;
+     clip-path: ellipse(50% 9% at 23.8% 9%);
 
-  }
+   }
 
-  .elemento3::after {
-    content: '';
-    width: 80%;
-    height: 80%;
-    background-color: blue;
-    top: 0;
-    right: 0;
-    position: absolute;
-    z-index: 0;
-    clip-path: ellipse(50% 9.3% at 67% 3.5%);
-    display: block;
+   .elemento3::after {
+     content: '';
+     width: 80%;
+     height: 80%;
+     background-color: blue;
+     top: 0;
+     right: 0;
+     position: absolute;
+     z-index: 0;
+     clip-path: ellipse(50% 9.3% at 67% 3.5%);
+     display: block;
 
-  }*/
+   }*/
 }
 .div-PaideTodos .blogCards-center {
   gap: 1rem;
@@ -214,279 +214,88 @@ header::after .font-logo {
     max-width: 95% !important;
   }
 }
-html,
 body {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  background-color: rgb(254, 213, 220);
   font-family: "Philosopher";
 }
 
-.myNavbar {
-  background-color: #5e2121;
-  height: 5rem;
-  padding: 0;
-  z-index: 1;
-}
-.myNavbar .font-logo {
-  font-family: "Lobster Two", cursive;
-}
-.myNavbar #blog-services {
-  font-size: 0.8rem;
-}
-
-header::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 4rem;
-  background: #5e2121;
-  top: 4rem;
-  -webkit-mask-image: url("https://github.com/LuizSilva28/Loja-Ficticia/blob/9f075e69650b6e33ca5598cdf221a1999304a8f7/assets/elemento-curvo.svg");
-  -webkit-mask-repeat: no-repeat;
-  mask-image: url("https://github.com/LuizSilva28/Loja-Ficticia/blob/9f075e69650b6e33ca5598cdf221a1999304a8f7/assets/elemento-curvo.svg");
-  mask-repeat: no-repeat;
-  background-size: contain;
-}
-header::after .font-logo {
+.font-logo {
   font-family: "Lobster Two", cursive;
 }
 
-.home-aling {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgb(254, 213, 220);
-  margin: 0;
-  padding: 0;
+.container-faq {
+  margin: 10% auto 0 auto;
+  border: none;
 }
-.home-aling .inicio-Empresa {
-  display: flex;
-  justify-content: center;
-  height: auto;
-  background-image: linear-gradient(0deg, #ff6666, #fed5dc);
-  margin: 10% 0 0 0;
-  padding-bottom: 5%;
+.container-faq .miniContainer_perguntas {
+  background-color: transparent;
 }
-.home-aling .inicio-Empresa .sobre-Empresa {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.container-faq .miniContainer_perguntas .duvidas_frequentes {
+  margin-left: 10%;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
 }
-.home-aling .inicio-Empresa .sobre-Empresa .titulo-apresentacao {
-  color: #853b3b;
-  font-weight: 400;
-  text-transform: uppercase;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+.container-faq .miniContainer_perguntas .duvidas_frequentes ul,
+.container-faq .miniContainer_perguntas .duvidas_frequentes li,
+.container-faq .miniContainer_perguntas .duvidas_frequentes button {
+  border: none;
+  padding: 0.2rem;
 }
-.home-aling .inicio-Empresa .sobre-Empresa .look-img1 {
-  margin: 5% auto 0 auto;
-  background-color: #853b3b;
-}
-.home-aling .inicio-Empresa .sobre-Empresa .look-img1 .img1-home {
-  box-shadow: 1px 1px 8px rgba(255, 255, 255, 0.795);
-  border-radius: 0.5rem;
-  width: 18rem;
-  transition: 0.3s;
-}
-.home-aling .inicio-Empresa .sobre-Empresa .look-img1 .txt1-home {
-  color: #ffffff;
-  max-width: 40rem;
-  line-height: 3rem;
-  font-size: 1.2em;
-  transition: 0.3s;
-}
-.home-aling .inicio-Empresa .sobre-Empresa .look-img2 {
-  margin: 7% auto 0 auto;
-  background-color: #853b3b;
-}
-.home-aling .inicio-Empresa .sobre-Empresa .look-img2 .txt2-home {
-  color: #ffffff;
-  max-width: 40rem;
-  line-height: 3rem;
-  font-size: 1.2em;
-  transition: 0.3s;
-}
-.home-aling .inicio-Empresa .sobre-Empresa .look-img2 .img2-home {
-  box-shadow: 1px 1px 8px rgba(255, 255, 255, 0.795);
-  border-radius: 0.5rem;
-  width: 25rem;
-  transition: 0.3s;
-}
-.home-aling .containerCards-center {
-  gap: 1rem;
-  padding: 3rem;
-  background-color: #ff6666;
-}
-.home-aling .containerCards-center .titulo-BgOpacity .titulo-cardsText {
-  color: rgb(254, 213, 220);
-  font-weight: 400;
-  text-transform: uppercase;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
-}
-.home-aling .containerCards-center .card-Pai {
-  width: 18rem;
-  background-color: #853b3b;
-  color: rgb(255, 255, 255);
-  border-radius: 1rem;
-}
-.home-aling .containerCards-center .card-Pai .title-myCard {
-  text-align: center;
-}
-.home-aling .myContainer1 {
-  padding-top: 10%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  background-image: linear-gradient(0deg, #fed5dc, #ff6666);
-  color: rgb(255, 255, 255);
-}
-.home-aling .myContainer1 .box-Balao1 {
-  padding: 1rem;
-  border-radius: 1rem;
-  max-width: 18rem;
-  max-height: 18rem;
-  background-color: #853b3b;
-  text-align: center;
-}
-.home-aling .myContainer1 .box-Balao1 .icon-container {
-  padding: 1rem;
-}
-.home-aling .myContainer1 .box-Balao1 .icon-container #icon-cardCarousel-1 {
-  width: 4em;
-  height: 4em;
-}
-.home-aling .myContainer1 .box-Balao1 .icon-container [class*=eicon-] {
-  content: "";
-  display: block;
-  width: 3em;
-  height: 3em;
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  background-size: contain;
-}
-.home-aling .myContainer1 .Meu-Carrossel {
-  background-image: linear-gradient(45deg, #5e2121, rgba(0, 0, 0, 0.8));
-  display: flex;
-  height: 20em;
-}
-.home-aling .myContainer1 .Meu-Carrossel .myImg-1 {
-  background-image: url(../../img/look-home-3.webp);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-}
-.home-aling .myContainer1 .Meu-Carrossel .myImg-2 {
-  background-image: url(../../img/look-home-4.webp);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-}
-.home-aling .myContainer1 .Meu-Carrossel .myImg-3 {
-  background-image: url(../../img/look-home-5.webp);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-}
-.home-aling .myContainer1 .box-Balao2 {
-  padding: 1rem;
-  border-radius: 1rem;
-  max-width: 18rem;
-  max-height: 18rem;
-  background-color: #853b3b;
-  text-align: center;
-}
-.home-aling .myContainer1 .box-Balao2 .icon-container2 {
-  padding: 1rem;
-}
-.home-aling .myContainer1 .box-Balao2 .icon-container2 [class*=eicon-] {
-  content: "";
-  display: block;
-  width: 2rem;
-  height: 2rem;
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  background-size: contain;
-}
-.home-aling .my-Container2 {
-  background: #fed5dc;
-  font-size: 1.5em;
-}
-.home-aling .my-Container2 [class*=eicon-] {
-  content: "";
-  display: block;
-  width: 3em;
-  height: 3em;
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  background-size: contain;
-}
-.home-aling .my-Container3 .barra-contatos {
-  background-color: #5e2121;
-  color: #ffffff;
-}
-.home-aling .my-Container3 #eicon {
-  margin: 0.2em 0.5em 0 0.5em;
-  width: 1.2em;
-  height: 1.2em;
-}
-.home-aling .my-Container3 [class*=eicon-] {
-  content: "";
-  display: block;
-  width: 3em;
-  height: 3em;
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  background-size: contain;
-}
-.home-aling .my-Container3 .referencias {
-  font-size: 0.7em;
+.container-faq .miniContainer_perguntas .pergunta_Suporte {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  max-width: 35rem;
+  background-color: rgb(255, 255, 255);
 }
 
-@media screen and (max-width: 575px) {
-  header .myNavbar .mine_menu {
+@media screen and (max-width: 460px) {
+  header .myNavbar .mine_menu1 {
     margin-top: 1rem;
     background-image: linear-gradient(45deg, #5e2121, rgba(0, 0, 0, 0.25));
     border-radius: 1rem;
   }
-  header .myNavbar .mine_menu .alinhando_FaqMineMenu {
+  header .myNavbar .mine_menu1 .alinhando_FaqMineMenu1 {
     margin: 2rem 0 0 auto !important;
   }
-  header .myNavbar .mine_menu ul {
+  header .myNavbar .mine_menu1 ul {
     width: auto !important;
     padding-left: 2rem !important;
   }
-  header .myNavbar .mine_menu ul li {
+  header .myNavbar .mine_menu1 ul li {
     width: auto !important;
     padding: 0 !important;
   }
-  header .myNavbar .mine_menu ul li a {
+  header .myNavbar .mine_menu1 ul li a {
     width: auto !important;
     margin: 0rem 1rem 0rem auto !important;
   }
-  .home-aling .inicio-Empresa {
-    margin: 25% 0 0 0;
+  .containerPai-Faq {
     padding: 0;
   }
-  .home-aling .inicio-Empresa .sobre-Empresa {
+  .containerPai-Faq .container-faq {
     width: 100%;
-    flex-wrap: wrap;
-  }
-  .home-aling .inicio-Empresa .sobre-Empresa .look-img1 .img1-home {
-    width: 90%;
-  }
-  .home-aling .inicio-Empresa .sobre-Empresa .look-img2 {
+    margin: 20% 0 0 0;
     padding: 0;
   }
-  .home-aling .inicio-Empresa .sobre-Empresa .look-img2 .img2-home {
-    width: 90%;
+  .containerPai-Faq .container-faq .miniContainer_perguntas {
+    align-items: center;
   }
-  .myContainer1 .carousel {
-    margin: 10% 0 10% 0 !important;
-    width: 100% !important;
+  .containerPai-Faq .container-faq .miniContainer_perguntas .containerDuvidas_frequentes {
+    padding: 0 0.2rem 0 0.2rem;
   }
-  .my-Container3 .alinhando_ContainerContatos #alinhament-areaContatos {
-    padding-left: 0 !important;
+  .containerPai-Faq .container-faq .miniContainer_perguntas .containerDuvidas_frequentes .duvidas_frequentes {
+    margin-left: 0;
+    font-size: 0.8em;
+  }
+  .containerPai-Faq .container-faq .miniContainer_perguntas .containerDuvidas_frequentes .pergunta_Suporte .input-group [type=text] {
+    font-size: 0.8em;
+  }
+  .containerPai-Faq .container-faq .miniContainer_perguntas .containerDuvidas_frequentes .pergunta_Suporte .input-group .input-group-text {
+    font-size: 0.8em;
+  }
+  .containerPai-Faq .container-faq .miniContainer_perguntas .containerDuvidas_frequentes .pergunta_Suporte .form-label {
+    font-size: 0.8em;
+  }
+  .containerPai-Faq .container-faq .miniContainer_perguntas .containerDuvidas_frequentes .pergunta_Suporte .form-control {
+    font-size: 0.8em;
   }
 }
 html,
@@ -502,9 +311,9 @@ header::after {
   height: 4rem;
   background: #5e2121;
   top: 4rem;
-  -webkit-mask-image: url("https://github.com/LuizSilva28/Loja-Ficticia/blob/9f075e69650b6e33ca5598cdf221a1999304a8f7/assets/elemento-curvo.svg");
+  -webkit-mask-image: url(../assets/elemento-curvo.svg);
   -webkit-mask-repeat: no-repeat;
-  mask-image: url("https://github.com/LuizSilva28/Loja-Ficticia/blob/9f075e69650b6e33ca5598cdf221a1999304a8f7/assets/elemento-curvo.svg");
+  mask-image: url(../assets/elemento-curvo.svg);
   mask-repeat: no-repeat;
 }
 header::after .font-logo {
@@ -806,88 +615,279 @@ header::after .font-logo {
     border-radius: 0 0 1rem 1rem !important;
   }
 }
+html,
 body {
-  background-color: rgb(254, 213, 220);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   font-family: "Philosopher";
 }
 
-.font-logo {
+.myNavbar {
+  background-color: #5e2121;
+  height: 5rem;
+  padding: 0;
+  z-index: 1;
+}
+.myNavbar .font-logo {
+  font-family: "Lobster Two", cursive;
+}
+.myNavbar #blog-services {
+  font-size: 0.8rem;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4rem;
+  background: #5e2121;
+  top: 4rem;
+  -webkit-mask-image: url(../assets/elemento-curvo.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-image: url(../assets/elemento-curvo.svg);
+  mask-repeat: no-repeat;
+  background-size: contain;
+}
+header::after .font-logo {
   font-family: "Lobster Two", cursive;
 }
 
-.container-faq {
-  margin: 10% auto 0 auto;
-  border: none;
+.home-aling {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(254, 213, 220);
+  margin: 0;
+  padding: 0;
 }
-.container-faq .miniContainer_perguntas {
-  background-color: transparent;
+.home-aling .inicio-Empresa {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  background-image: linear-gradient(0deg, #ff6666, #fed5dc);
+  margin: 10% 0 0 0;
+  padding-bottom: 5%;
 }
-.container-faq .miniContainer_perguntas .duvidas_frequentes {
-  margin-left: 10%;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+.home-aling .inicio-Empresa .sobre-Empresa {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-.container-faq .miniContainer_perguntas .duvidas_frequentes ul,
-.container-faq .miniContainer_perguntas .duvidas_frequentes li,
-.container-faq .miniContainer_perguntas .duvidas_frequentes button {
-  border: none;
-  padding: 0.2rem;
+.home-aling .inicio-Empresa .sobre-Empresa .titulo-apresentacao {
+  color: #853b3b;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
 }
-.container-faq .miniContainer_perguntas .pergunta_Suporte {
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
-  max-width: 35rem;
-  background-color: rgb(255, 255, 255);
+.home-aling .inicio-Empresa .sobre-Empresa .look-img1 {
+  margin: 5% auto 0 auto;
+  background-color: #853b3b;
+}
+.home-aling .inicio-Empresa .sobre-Empresa .look-img1 .img1-home {
+  box-shadow: 1px 1px 8px rgba(255, 255, 255, 0.795);
+  border-radius: 0.5rem;
+  width: 18rem;
+  transition: 0.3s;
+}
+.home-aling .inicio-Empresa .sobre-Empresa .look-img1 .txt1-home {
+  color: #ffffff;
+  max-width: 40rem;
+  line-height: 3rem;
+  font-size: 1.2em;
+  transition: 0.3s;
+}
+.home-aling .inicio-Empresa .sobre-Empresa .look-img2 {
+  margin: 7% auto 0 auto;
+  background-color: #853b3b;
+}
+.home-aling .inicio-Empresa .sobre-Empresa .look-img2 .txt2-home {
+  color: #ffffff;
+  max-width: 40rem;
+  line-height: 3rem;
+  font-size: 1.2em;
+  transition: 0.3s;
+}
+.home-aling .inicio-Empresa .sobre-Empresa .look-img2 .img2-home {
+  box-shadow: 1px 1px 8px rgba(255, 255, 255, 0.795);
+  border-radius: 0.5rem;
+  width: 25rem;
+  transition: 0.3s;
+}
+.home-aling .containerCards-center {
+  gap: 1rem;
+  padding: 3rem;
+  background-color: #ff6666;
+}
+.home-aling .containerCards-center .titulo-BgOpacity .titulo-cardsText {
+  color: rgb(254, 213, 220);
+  font-weight: 400;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+}
+.home-aling .containerCards-center .card-Pai {
+  width: 18rem;
+  background-color: #853b3b;
+  color: rgb(255, 255, 255);
+  border-radius: 1rem;
+}
+.home-aling .containerCards-center .card-Pai .title-myCard {
+  text-align: center;
+}
+.home-aling .myContainer1 {
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: linear-gradient(0deg, #fed5dc, #ff6666);
+  color: rgb(255, 255, 255);
+}
+.home-aling .myContainer1 .box-Balao1 {
+  padding: 1rem;
+  border-radius: 1rem;
+  max-width: 18rem;
+  max-height: 18rem;
+  background-color: #853b3b;
+  text-align: center;
+}
+.home-aling .myContainer1 .box-Balao1 .icon-container {
+  padding: 1rem;
+}
+.home-aling .myContainer1 .box-Balao1 .icon-container #icon-cardCarousel-1 {
+  width: 4em;
+  height: 4em;
+}
+.home-aling .myContainer1 .box-Balao1 .icon-container [class*=eicon-] {
+  content: "";
+  display: block;
+  width: 3em;
+  height: 3em;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+.home-aling .myContainer1 .Meu-Carrossel {
+  background-image: linear-gradient(45deg, #5e2121, rgba(0, 0, 0, 0.8));
+  display: flex;
+  height: 20em;
+}
+.home-aling .myContainer1 .Meu-Carrossel .myImg-1 {
+  background-image: url(../img/look-home-3.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.home-aling .myContainer1 .Meu-Carrossel .myImg-2 {
+  background-image: url(../img/look-home-4.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.home-aling .myContainer1 .Meu-Carrossel .myImg-3 {
+  background-image: url(../img/look-home-5.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.home-aling .myContainer1 .box-Balao2 {
+  padding: 1rem;
+  border-radius: 1rem;
+  max-width: 18rem;
+  max-height: 18rem;
+  background-color: #853b3b;
+  text-align: center;
+}
+.home-aling .myContainer1 .box-Balao2 .icon-container2 {
+  padding: 1rem;
+}
+.home-aling .myContainer1 .box-Balao2 .icon-container2 [class*=eicon-] {
+  content: "";
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+.home-aling .my-Container2 {
+  background: #fed5dc;
+  font-size: 1.5em;
+}
+.home-aling .my-Container2 [class*=eicon-] {
+  content: "";
+  display: block;
+  width: 3em;
+  height: 3em;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+.home-aling .my-Container3 .barra-contatos {
+  background-color: #5e2121;
+  color: #ffffff;
+}
+.home-aling .my-Container3 #eicon {
+  margin: 0.2em 0.5em 0 0.5em;
+  width: 1.2em;
+  height: 1.2em;
+}
+.home-aling .my-Container3 [class*=eicon-] {
+  content: "";
+  display: block;
+  width: 3em;
+  height: 3em;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+.home-aling .my-Container3 .referencias {
+  font-size: 0.7em;
 }
 
-@media screen and (max-width: 460px) {
-  header .myNavbar .mine_menu1 {
+@media screen and (max-width: 575px) {
+  header .myNavbar .mine_menu {
     margin-top: 1rem;
     background-image: linear-gradient(45deg, #5e2121, rgba(0, 0, 0, 0.25));
     border-radius: 1rem;
   }
-  header .myNavbar .mine_menu1 .alinhando_FaqMineMenu1 {
+  header .myNavbar .mine_menu .alinhando_FaqMineMenu {
     margin: 2rem 0 0 auto !important;
   }
-  header .myNavbar .mine_menu1 ul {
+  header .myNavbar .mine_menu ul {
     width: auto !important;
     padding-left: 2rem !important;
   }
-  header .myNavbar .mine_menu1 ul li {
+  header .myNavbar .mine_menu ul li {
     width: auto !important;
     padding: 0 !important;
   }
-  header .myNavbar .mine_menu1 ul li a {
+  header .myNavbar .mine_menu ul li a {
     width: auto !important;
     margin: 0rem 1rem 0rem auto !important;
   }
-  .containerPai-Faq {
+  .home-aling .inicio-Empresa {
+    margin: 25% 0 0 0;
     padding: 0;
   }
-  .containerPai-Faq .container-faq {
+  .home-aling .inicio-Empresa .sobre-Empresa {
     width: 100%;
-    margin: 20% 0 0 0;
+    flex-wrap: wrap;
+  }
+  .home-aling .inicio-Empresa .sobre-Empresa .look-img1 .img1-home {
+    width: 90%;
+  }
+  .home-aling .inicio-Empresa .sobre-Empresa .look-img2 {
     padding: 0;
   }
-  .containerPai-Faq .container-faq .miniContainer_perguntas {
-    align-items: center;
+  .home-aling .inicio-Empresa .sobre-Empresa .look-img2 .img2-home {
+    width: 90%;
   }
-  .containerPai-Faq .container-faq .miniContainer_perguntas .containerDuvidas_frequentes {
-    padding: 0 0.2rem 0 0.2rem;
+  .myContainer1 .carousel {
+    margin: 10% 0 10% 0 !important;
+    width: 100% !important;
   }
-  .containerPai-Faq .container-faq .miniContainer_perguntas .containerDuvidas_frequentes .duvidas_frequentes {
-    margin-left: 0;
-    font-size: 0.8em;
-  }
-  .containerPai-Faq .container-faq .miniContainer_perguntas .containerDuvidas_frequentes .pergunta_Suporte .input-group [type=text] {
-    font-size: 0.8em;
-  }
-  .containerPai-Faq .container-faq .miniContainer_perguntas .containerDuvidas_frequentes .pergunta_Suporte .input-group .input-group-text {
-    font-size: 0.8em;
-  }
-  .containerPai-Faq .container-faq .miniContainer_perguntas .containerDuvidas_frequentes .pergunta_Suporte .form-label {
-    font-size: 0.8em;
-  }
-  .containerPai-Faq .container-faq .miniContainer_perguntas .containerDuvidas_frequentes .pergunta_Suporte .form-control {
-    font-size: 0.8em;
+  .my-Container3 .alinhando_ContainerContatos #alinhament-areaContatos {
+    padding-left: 0 !important;
   }
 }
 
