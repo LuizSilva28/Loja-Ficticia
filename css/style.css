@@ -772,19 +772,19 @@ header::after .font-logo {
   height: 20em;
 }
 .home-aling .myContainer1 .Meu-Carrossel .myImg-1 {
-  background-image: url(../../img/look-home-3.webp);
+  background-image: url(../img/look-home-3.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
 }
 .home-aling .myContainer1 .Meu-Carrossel .myImg-2 {
-  background-image: url(../../img/look-home-4.webp);
+  background-image: url(../img/look-home-4.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
 }
 .home-aling .myContainer1 .Meu-Carrossel .myImg-3 {
-  background-image: url(../../img/look-home-5.webp);
+  background-image: url(../img/look-home-5.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
